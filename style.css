@@ -13,30 +13,7 @@
     /* border: .5px solid green; */
 }
 
-.top {
-    width: 100%;
-    /* height: 650px; */
-    /* border: .5px solid blue;  */
-    /*background-color: aqua;*/
-    /* background-image:url(https://themedemos.download/ld/perela-demo/assets/images/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-}
 
-/* .top::after{
-    content: "";
-    background-image: url(https://themedemos.download/ld/perela-demo/assets/images/bg,jpg) ;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: auto;
-    height: auto;
-    opacity: 0.18;
-    z-index: -1;
-} */
 
 .nav {
     width: 100%;
@@ -80,9 +57,7 @@
 .container {
     width: 100%;
     height: 98vh;
-    /*border: 1px solid gold;*/
-    /* text-align: center; */
-    /* padding-top: 70px;       */
+    border: 1px solid gold;
     background-image: url('image/top-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +84,7 @@
 a.home-button {
     display: inline-block;
     background: #fff;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border-radius: 25px;
     color: #000;
     margin-top: 40px;
@@ -119,23 +94,24 @@ a.home-button {
 
 .personal {
     width: 1400px;
+    height: 98vh;
     margin: 0 auto;
     background-color: #fff;
-    /* border: 1px solid #ff1100; */
+    border: 1px solid #ff1100; 
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 .picture {
     width: 30%;
-    height: 548px;
-    /* border: 1px solid yellow; */
+    height: 490px;
+    border: 1px solid yellow; 
     float: left;
+    
 }
 
 .details {
     width: 70%;
-    float: left;
     height: 550px;
     /* background-color: #f5f5f5; */
     /* border: 1px solid rgb(192, 241, 12); */
@@ -147,40 +123,42 @@ a.home-button {
     font-size: 70px;
     color: #000;
     position: relative;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .details p {
+    
     font-weight: 200;
     font-size: 18px;
     color: #000;
     position: relative;
-    margin-top: 40px;
+    margin-top: 60px;
     justify-content: center;
     margin-left: 35px;
+    text-align: center;
 }
 
 
 a.about-button {
     display: inline-block;
     background: #333;
-    padding: 15px 40px;
+    padding: 15px 20px;
     border-radius: 30px;
     color: #fff;
     margin-top: 60px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-decoration: none;
 
 }
 
 .work {
     width: 100%;
-    height: 600px;
-    /*border: 1px solid green;*/
+    height: 98vh;
+    border: 1px solid green;
     margin: 0 auto;
-    /* background-color: #f5f5f5; */
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -191,7 +169,7 @@ a.about-button {
     float: left;
     margin-left: 220px;
     margin-top: 150px;
-    background-color: #fff;
+    background-color: white;
 }
 
 .service-icon {
@@ -205,24 +183,7 @@ a.about-button {
     color: #333;
 }
 
-.service-icon p {
-    color: #000;
-    font-size: 14px;
-    margin-bottom: 0;
-    line-height: 25px;
-}
 
-.service-icon h2 {
-    font-size: 26px;
-    text-transform: capitalize;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    -webkit-transition: .3s;
-    transition: .3s;
-    color: #333;
-    font-weight: 400;
-    position: relative;
-}
 
 .col2 {
     width: 20%;
@@ -246,10 +207,10 @@ a.about-button {
 
 .portfolio {
     width: 100%;
-    height: 700px;
+    height: 107vh;
     border: 1px solid brown;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 .heading {
@@ -266,23 +227,23 @@ a.about-button {
 }
 
 .designs {
-    width: 100%;
-    height: 600px;
+    width: 70%;
+    height: 91.5vh;
     border: 1px solid blue;
-    margin-left: 52px;
+    /*margin-left: 52px;*/
+    margin: 0 auto;
 }
 
 .design1 {
-    width: 30.3%;
+    width: 33%;
     height: 300px;
     border: 1px solid yellowgreen;
     float: left;
-    ;
 }
 
 
 .design2 {
-    width: 30.3%;
+    width: 33.5%;
     height: 300px;
     border: 1px solid yellowgreen;
     float: left;
@@ -290,7 +251,7 @@ a.about-button {
 
 
 .design3 {
-    width: 30.4%;
+    width: 33.5%;
     height: 300px;
     border: 1px solid yellowgreen;
     float: left;
@@ -298,7 +259,7 @@ a.about-button {
 
 
 .design4 {
-    width: 30.3%;
+    width: 33%;
     height: 300px;
     border: 1px solid yellowgreen;
     float: left;
@@ -306,7 +267,7 @@ a.about-button {
 
 
 .design5 {
-    width: 30.3%;
+    width: 33.5%;
     height: 300px;
     border: 1px solid yellowgreen;
     float: left;
@@ -315,7 +276,7 @@ a.about-button {
 
 
 .design6 {
-    width: 30.4%;
+    width: 33.5%;
     height: 300px;
     border: 1px solid yellowgreen;
     float: left;
@@ -326,19 +287,21 @@ a.about-button {
     height: 700px;
     border: 1px solid royalblue;
     background: #FAFAFA;
-    margin-top: 50px;
 }
 
 
 .bold_text {
-    width: 100%;
+    width: 75%;
     height: 150px;
     text-align: center;
     font-size: 30px;
-    border: 1px solid chocolate;
-    padding-top: 50px;
+    /*border: 1px solid chocolate;*/
+    padding-top: 40px;
     font-style: inherit;
     color: #888;
+    margin: 0 auto;
+
+
 }
 
 .personalinfo {
@@ -379,22 +342,25 @@ a.about-button {
     height: 450px;
     border: 1px solid rgb(0, 139, 35);
     float: right;
-    padding-top: 50px;
+    padding-top: 20px;
     margin-bottom: 30px;
 
 }
 
-.form-group {
-    width: 100%;
+
+
+.form-control {
+    width: 90%;
     height: 50px;
     display: block;
+    border: 1px solid #DDDDDD;
     font-size: 16px;
     color: #000;
-    border-radius: 5px;
+    background-color: transparent;
+    border-radius: 0px;
     padding: 10px 10px;
-    text-align: center;
-
-
+    margin-bottom: 30px;
+    margin-left: 15px;
 }
 
 
@@ -420,18 +386,18 @@ a.about-button {
 .form button {
     width: 220px;
     color: #fff;
-    padding: 16px 35px;
-    font-size: 14px;
+    padding: 16px 40px;
+    font-size: 20px;
     background-color: #000;
     font-weight: 600;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
 }
 
 
 .footer {
     width: 100%;
     height: 100px;
-    padding: 15px;
     font-size: 15px;
     float: left;
     /*border: 1px solid orange;*/
@@ -442,5 +408,5 @@ a.about-button {
 .footer_text {
     text-align: center;
     color: #888;
-    padding-top: 20px;
+    padding-top: 25px;
 }
